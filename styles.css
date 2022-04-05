@@ -2,9 +2,6 @@ body {
     margin: 0;
     background: black;
     text-align: center;
+    font-family: "Courier New", "Lucida Console", monospace;
     color: white;
-}
-
-p {
-    color: red;
 }
