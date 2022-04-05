@@ -1,3 +1,4 @@
+<style>
 body {
     margin: 0;
     background: black;
@@ -5,3 +6,12 @@ body {
     font-family: "Courier New", "Lucida Console", monospace;
     color: white;
 }
+
+a:link {
+    color: crimson;
+}
+
+a:visited {
+    color: crimson;
+}
+</style>
