@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
-.about-me {
+.about-me-intro {
     color: gold;
+}
+
+.relevant-classes {
+    color: salmon;
 }
