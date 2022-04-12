@@ -12,4 +12,9 @@ body {
 
 .relevant-classes {
     color: salmon;
+    line-height: 75%;
+}
+
+hr {
+    width: 50%;
 }
