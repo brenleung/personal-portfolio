@@ -27,9 +27,6 @@ body {
     padding-top: 16px;
 }
 
-
-/* fixing links in sidebar */
-
 .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -39,11 +36,8 @@ body {
     display: block;
 }
 
-
-/* hover over links */
-
 .sidebar a:hover {
-    color: #738ADB;
+    color: darkcyan;
 }
 
 .main {
