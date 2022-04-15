@@ -15,7 +15,6 @@ body {
 }
 
 .sidebar {
-    color: lightblue;
     height: 100%;
     width: 200px;
     position: fixed;
