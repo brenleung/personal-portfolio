@@ -26,3 +26,8 @@ body {
     overflow-x: hidden;
     padding-top: 16px;
 }
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
