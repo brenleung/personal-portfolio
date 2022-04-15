@@ -13,3 +13,16 @@ body {
 .relevant-classes {
     color: salmon;
 }
+
+.sidebar {
+    color: lightblue;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    overflow-x: hidden;
+    padding-top: 16px;
+}

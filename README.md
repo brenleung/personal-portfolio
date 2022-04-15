@@ -10,3 +10,4 @@ With these I have learned how to:
 * Divide my HTML code into custom classes
 * Create headers
 * Insert a GIF
+* Create a working sidebar
