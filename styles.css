@@ -22,17 +22,28 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: whitesmoke;
+    background-color: #ded8d7;
     overflow-x: hidden;
     padding-top: 16px;
 }
+
+
+/* fixing links in sidebar */
 
 .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
+    font-weight: bold;
     color: #818181;
     display: block;
+}
+
+
+/* hover over links */
+
+.sidebar a:hover {
+    color: #738ADB;
 }
 
 .main {
