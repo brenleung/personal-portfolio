@@ -47,5 +47,5 @@ body {
 
 .icons a {
     color: white;
-    display: inline-block;
+    display: flex;
 }
