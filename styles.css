@@ -52,6 +52,7 @@ body {
 .title {
     color: white;
     text-align: left;
-    font-family: "League Spartan", "Times New Roman", sans-serif;
+    font-family: 'Oswald';
+    font-size: 100px;
     padding-left: 15px;
 }
