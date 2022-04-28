@@ -48,3 +48,10 @@ body {
 .icons a {
     color: white;
 }
+
+.title {
+    color: white;
+    text-align: left;
+    font-family: "League Spartan", "Times New Roman", sans-serif;
+    padding-left: 15px;
+}
