@@ -98,5 +98,6 @@ body {
 
 .image-row {
     width: 50%;
+    align-items: center;
     padding: 5px;
 }
