@@ -97,6 +97,7 @@ body {
 }
 
 .image-row {
+    width: 50%;
     float: left;
     padding: 5px;
 }
