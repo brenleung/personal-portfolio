@@ -52,16 +52,16 @@ body {
 
 .title {
     color: white;
-    font-family: 'Oswald';
-    font-size: 50px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 35px;
     animation-name: learn;
     animation-duration: 3s;
 }
 
 .title-2 {
     color: white;
-    font-family: 'Oswald';
-    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 22px;
 }
 
 .classes {
@@ -75,8 +75,8 @@ body {
 }
 
 .typing {
-    height: 300px;
-    width: 565px;
+    height: 150px;
+    width: 700px;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
