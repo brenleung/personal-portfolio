@@ -243,15 +243,3 @@ body {
     animation-delay: -0.4s;
     opacity: 0%;
   }
-
-  .footer {
-    font-size: 12px;
-    padding-left: 25px;
-    text-align: left;
-  }
-  .footer a:link {
-    color: lightgray;
-  }
-  .footer a:visited {
-    color: gray;
-  }
