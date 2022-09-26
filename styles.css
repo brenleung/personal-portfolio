@@ -243,3 +243,11 @@ body {
     animation-delay: -0.4s;
     opacity: 0%;
   }
+
+  .projects a:hover {
+    color: white;
+  }
+
+  .projects a:visited {
+    color: lightgray;
+  }
