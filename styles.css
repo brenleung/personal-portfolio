@@ -245,6 +245,10 @@ body {
     opacity: 0%;
   }
 
+  .projects a {
+    color: lightgray;
+  }
+  
   .projects a:hover {
     color: white;
   }
