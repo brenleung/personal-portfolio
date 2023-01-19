@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/projects.css">
     <link rel="shortcut icon" href="/favicon.ico" />
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d021e0fc1f.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <title>projects</title>
 </head>
 
@@ -31,77 +30,46 @@
             <h1>projects.</h1>
         </div>
         <p>Click on any of the dropdowns to learn more about each project!</p>
-        
-        <div class="projects">
-            <details>
-                <summary>
-                    MINESWEEPER (2019)
-                </summary>
-                <div class="image-row">
-                    <img src="/imgs/minesweeper1.png" style="width:20%; height:auto;">
-                    <img src="/imgs/minesweeper2.png" style="width:20%; height:auto;"><br>
-                </div>
-                I created a replica Minesweeper game for my AP Computer Science A class.
-                This taught me about game design, functions, for loops, and while loops.
-                The code can be viewed <a href="https://github.com/brenleung/Minesweeper">here</a> and the game can be played <a href="https://brenleung.github.io/Minesweeper/">here</a>. 
-            </details>
-            <br>
+        <div style="padding-top: 20px"></div>
 
-            <details>
-                <summary>
-                    ASTEROIDS GAME (2019)
-                </summary>
-                <div class="image-row">
-                    <img src="/imgs/asteroids1.png" style="width: 20%; height:auto;"><br>
+        <div class="row">
+            <div class="card">
+                <img src="/imgs/asteroids1.png">
+                <div class="container">
+                    <h3>Asteroids!</h3>
+                    <p>Simple JavaScript program created in AP Computer Science A. User uses WASD to control a spaceship with working velocity. Game includes health bar and score.</p>
                 </div>
-                This project involves very basic game design, as you play as a spaceship and
-                your goal is to destroy the asteroids around you. This taught me to implement
-                different game mechanics, including phsyics, projectiles, health, and more.
-                These were accomplished using classes, abstract methods, and functions.
-                The code can be viewed <a href="https://github.com/brenleung/AsteroidsGame">here</a>
-                and the game can be played <a href="https://brenleung.github.io/AsteroidsGame/">here</a>.
-            </details> <br>
+                <a href="www.google.com" target="_blank" class="card-link"></a>
+            </div>
 
-            <details>
-                <summary>
-                    CONNECT N (2021)
-                </summary>
-                <div class="image-row">
-                    <img src="/imgs/connectn1.png" style="width: 40%; height:auto;">
-                    <img src="/imgs/connectn2.png" style="width: 40%; height:auto;">
+            <div class="card">
+                <img src="/imgs/connectn2.png">
+                <div class="container">
+                    <h3>ConnectN</h3>
+                    <p>Created in ECS36A, a terminal project built through C++ that allows the user to play a Connect-4 style game, except with any amount of pieces.</p>
                 </div>
-                <p>This was a project created through a class at UC Davis using C. It involved using multiple
-                files and a Makefile. At its completion, the game was able to be played in the terminal,
-                with the idea being a customizable Connect 4. The user could customize how large the board could
-                be and how many pieces would be needed to win. Since this game was created in a class, the code 
-                cannot be shared publicly, but if you are interested, you can email me directly.</p>
-            </details> <br>
+                <a href="www.google2.com" target="_blank" class="card-link"></a>
+            </div>
 
-            <details>
-                <summary>
-                    WEBSITE (2022)
-                </summary>
-                This very website, although simple, was created as a passion project so that I 
-                could learn HTML/CSS on my own. As of right now, this website is built purely through
-                HTML/CSS and currently stands as a simplified version of a portfolio website.
-                It currently holds a home page, about me, resume, projects, and contact section. The
-                website can be viewed <a href="https://brenleung.netlify.app">here</a> and the code 
-                can be viewed <a href="https://github.com/brenleung/beginner-website">here</a>.
-            </details> <br>
-
-            <details>
-                <summary>
-                    BLACKJACK (2022)
-                </summary>
-                <div class="image-row">
-                    <img src="/imgs/blackjack1.png" style="width: 40%; height: auto;">
+            <div class="card">
+                <img src="/imgs/minesweeper2.png">
+                <div class="container">
+                    <h3>Minesweeper</h3>
+                    <p>JavaScript program created in AP Computer Science A, which is based off of the classic Minesweeper game. Is playable in browser and has an Earth-like color scheme.</p>
                 </div>
-                <p>As a means of continuing to learn Python, I created a functional Blackjack game that 
-                can be played through the terminal! It has basic win/loss conditions and an AI to play
-                against. It can be played <a href="https://replit.com/@brenleung/blackjack">here</a> and 
-                the code can be viewed <a href="https://github.com/brenleung/blackjack">here</a>.</p>
-            </details>
+                <a href="www.google3.com" target="_blank" class="card-link"></a>
+            </div>
+
+            <div class="card">
+                <img src="/imgs/zionsf.png">
+                <div class="container">
+                    <h3>Zion Lutheran Redesign</h3>
+                    <p>Complete website re-design of my alma mater. Is fully functional and responsive on desktop. Features snap-scrolling, a top navbar, and design-friendly buttons.</p>
+                </div>
+                <a href="www.google4.com" target="_blank" class="card-link"></a>
+            </div>
         </div>
+        
     </div>
 
 </body>
