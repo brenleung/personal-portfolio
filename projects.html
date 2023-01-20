@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <title>projects</title>
 </head>
 
@@ -29,48 +30,53 @@
         <div class="title-2">
             <h1>projects.</h1>
         </div>
-        <p>Click on any of the dropdowns to learn more about each project!</p>
         <div style="padding-top: 20px"></div>
 
         <div class="row">
-            <div class="card">
+            <div class="card" style="cursor: pointer">
+                <a href="https://github.com/brenleung/AsteroidsGame" target="_blank"></a>
                 <img src="/imgs/asteroids1.png">
                 <div class="container">
                     <h3>Asteroids!</h3>
                     <p>Simple JavaScript program created in AP Computer Science A. User uses WASD to control a spaceship with working velocity. Game includes health bar and score.</p>
                 </div>
-                <a href="www.google.com" target="_blank" class="card-link"></a>
             </div>
 
-            <div class="card">
+            <div class="card" style="cursor: pointer">
+                <a href="#" target="_blank"></a>
                 <img src="/imgs/connectn2.png">
                 <div class="container">
                     <h3>ConnectN</h3>
                     <p>Created in ECS36A, a terminal project built through C++ that allows the user to play a Connect-4 style game, except with any amount of pieces.</p>
                 </div>
-                <a href="www.google2.com" target="_blank" class="card-link"></a>
             </div>
 
-            <div class="card">
+            <div class="card" style="cursor: pointer">
+                <a href="https://github.com/brenleung/Minesweeper" target="_blank"></a>
                 <img src="/imgs/minesweeper2.png">
                 <div class="container">
                     <h3>Minesweeper</h3>
                     <p>JavaScript program created in AP Computer Science A, which is based off of the classic Minesweeper game. Is playable in browser and has an Earth-like color scheme.</p>
                 </div>
-                <a href="www.google3.com" target="_blank" class="card-link"></a>
             </div>
 
-            <div class="card">
+            <div class="card" style="cursor: pointer">
+                <a href="https://zionsfschool.netlify.app" target="_blank"></a>
                 <img src="/imgs/zionsf.png">
                 <div class="container">
                     <h3>Zion Lutheran Redesign</h3>
                     <p>Complete website re-design of my alma mater. Is fully functional and responsive on desktop. Features snap-scrolling, a top navbar, and design-friendly buttons.</p>
                 </div>
-                <a href="www.google4.com" target="_blank" class="card-link"></a>
             </div>
         </div>
-        
     </div>
+
+    <script>
+        $(".card").click(function() {
+            window.open($(this).find("a").attr("href"), 'blank');
+            return false;
+        })
+    </script>
 
 </body>
 
