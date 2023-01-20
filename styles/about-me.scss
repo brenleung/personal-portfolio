@@ -37,11 +37,6 @@ body {
     padding-top: 15px;
 }
 
-.main-body {
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
 .icons a {
     color: white;
 }
@@ -61,7 +56,6 @@ body {
 }
 
 .classes {
-    /*list-style-position: inside;*/
     text-align: left;
 }
 
@@ -91,52 +85,8 @@ body {
     color: white;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 100%;
-    margin: 0 auto;
-}
-  
-.card {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    border: white 2px solid;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.card img {
-    object-fit: cover;
-    height: 224px;
-}
-
-.card:hover {
-    border: red 2px solid;
-    h3 {
-        color: yellow;
-    }
-}
-
-.container {
-    align-self: center;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-  
-.container h3 {
-    margin-bottom: 0;
-    margin-top: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-}
-  
-.container p {
-    margin-top: 0;
-    font-size: 12px;
+.icons i:hover {
+    color: rgb(218, 210, 210);
 }
 
 // media queries for sidebar responsiveness:
