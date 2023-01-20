@@ -37,6 +37,11 @@ body {
     padding-top: 15px;
 }
 
+.main p {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
 .icons a {
     color: white;
 }
@@ -256,6 +261,15 @@ body {
         width: 75%;
         margin-left: 25%;
     }
+
+    .title {
+        font-size: 23px;
+    }
+
+    .typing {
+        height: 100px;
+        width: 480px;
+    }
 }
 
 @media screen and (min-width: 821px) and (max-width: 1050px) {
@@ -266,5 +280,14 @@ body {
     .main {
         width: 80%;
         margin-left: 20%;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .typing {
+        height: 125px;
+        width: 620px;
     }
 }
