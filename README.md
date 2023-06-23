@@ -3,7 +3,7 @@ This contains all the code for my first website/my personal portfolio. All
 of this code gets updated frequently and are pushed automatically to Netlify,
 where the website is being hosted.
 
-My website can be viewed [here](https://brenleung.netlify.app/).
+My website can be viewed [here](https://old-brenleung.netlify.app/).
 
 ## Why
 Having had free time at my current job that allows me to explore my interests,
